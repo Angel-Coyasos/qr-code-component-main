@@ -1,0 +1,47 @@
+@import "_variables.scss";
+
+body {
+    background: $Light-gray;
+    width: 100vw;
+    height: 100vh;
+}
+
+.qr {
+
+    &-container {
+        position: relative;
+        top: calc(50% - 250px);
+        width: 300px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+        background: $White;
+    }
+
+    &-image {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    &-content {
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    &-title {
+        font-family: $Family;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: $Dark-blue;
+    }
+
+    &-text {
+        font-family: $Family;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        color: $Grayish-blue;
+    }
+
+}
